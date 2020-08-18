@@ -3581,7 +3581,8 @@ input, select, textarea {
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
-		text-align: center;
+    text-align: center;
+    
 	}
 
 		#banner h2 {
@@ -3996,4 +3997,56 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
-	}
+  }
+  
+/* Custom CSS */
+.custom-paragraph {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  max-width: 800px;
+}
+
+.profile-picture {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  height: 250px;
+  width: 250px;
+  background-image: url('/images/profile_picture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px;
+  border-radius: 50%;
+}
+
+#two {
+  padding-top: 50px;
+  scroll-behavior: smooth;
+}
+
+.projects {
+  margin: 0;
+  align-self: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* .fab > p {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 17pt;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  line-height: 1.65em;
+} */
+
+span.label {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 500;
+  text-align: center;
+}
