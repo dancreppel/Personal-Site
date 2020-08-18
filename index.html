@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>Daniel Creppel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 	</head>
 	<body class="landing is-preload">
 
@@ -19,7 +20,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.html">Daniel Creppel</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -27,10 +28,10 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="#one">About</a></li>
+											<li><a href="#two">Projects</a></li>
+											<li><a href="#three">Skills</a></li>
+											<li><a href="#footer">Contact</a></li>
 										</ul>
 									</div>
 								</li>
@@ -41,55 +42,52 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
+              <div class="profile-picture"></div>
+              <h2>Daniel Creppel</h2>
+              <p class="custom-paragraph"> A technology enthusiast always on the look out for the next big thing. Anything that sparks my interest prompts me to
+              explore and implement that technology. </p>
+							<!-- <ul class="actions special">
 								<li><a href="#" class="button primary">Activate</a></li>
-							</ul>
+							</ul> -->
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#one" class="more scrolly">About me</a>
 					</section>
 
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>I am a Software Engineer.</h2>
+								<p class="custom-paragraph">With just a little exposure to computer science on my way to graduating with a degree in Industrial and Systems Engineering, I instantly fell in love with coding.  Since graduation, I have been committing most of my time to the path of the programmer.  Within a few months I have created several projects, which I am incredibly proud of.  Additionally, I have built a repertoir of skills.</p>
 							</header>
-							<ul class="icons major">
+							<!-- <ul class="icons major">
 								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
 								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
 								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
+            <h2 class="projects">Projects</h2>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/FoG.gif" alt="" /></div><div class="content">
+                <h2>Fans Of Gaming: A clone of Steam</h2>
+								<p>An online game store built using React and Redux for the frontend and Ruby on Rails with a PostgreSQL database for the backend.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/Blox.gif" alt="" /></div><div class="content">
+								<h2>Blox:
+								Unleash your inner musician</h2>
+								<p>A simple music app built with React and Redux for the frontend and MongoDB, Express.js, and Node.js for the backend.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/slime.gif" alt="" /></div><div class="content">
+								<h2>A Slime's Tale: Consume, Evolve, Dominate</h2>
+								<p>A slime simulator where the strongest creatures survive.  Built using HTML, CSS, and Canvas.</p>
 							</div>
 						</section>
 					</section>
@@ -97,42 +95,48 @@
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+              <header class="major">
+                <h2>Skills</h2>
 							</header>
 							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                <li class="fab fa-js-square">
+                  <h3>JavaScript</h3>
+                  <!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
+                </li>
+								<li class="fab fa-react">
+                  <h3>React-Redux</h3>
+									<!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
 								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                <li class="fab fa-node-js">
+                  <h3>Express.JS</h3>
+                  <!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
+                </li>
+								<li class="far fa-gem">
+									<h3>Ruby on Rails</h3>
+									<!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
 								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="fas fa-database">
+									<h3>MongoDB</h3>
+									<!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
 								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="fas fa-database">
+									<h3>PostgreSQL</h3>
+									<!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
 								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="fab fa-html5">
+									<h3>HTML</h3>
+									<!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
 								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="fab fa-css3-alt">
+									<h3>CSS</h3>
+									<!-- <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p> -->
 								</li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
+					<!-- <section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
 								<h2>Arcue ut vel commodo</h2>
@@ -143,19 +147,18 @@
 								<li><a href="#" class="button fit">Learn More</a></li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/daniel-creppel-7b289318a/" target="_blank" class="fab fa-linkedin"><span class="label"></span> LinkedIn</a></li>
+							<li><a href="https://github.com/dancreppel" target="_blank" class="fab fa-github-square"><span class="label"> GitHub</span></a></li>
+							<li><a href="images/Daniel Creppel Resume.pdf" target="_blank" class="fas fa-file-alt"><span class="label"> Resume</span></a></li>
+							<li><a href="#footer" class="far fa-envelope"><span class="label"> creppel@usc.edu</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Daniel Creppel</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
